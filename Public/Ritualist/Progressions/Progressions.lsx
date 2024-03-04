@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="3e28454a-7dce-4fc4-bb35-f33d1071ffa2" />
+          <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="Level" type="uint8" value="1" />
+		  <attribute id="ProgressionType" type="uint8" value="0" />
+		  <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(SimpleWeapons);ActionResource(EssencePoints,4,0);Tag(SORCERER_METAMAGIC);Tag(WARLOCK);Tag(DRUID)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_EssenceCasting;RestoreEvolutionPointsOnSummon" />
+		  <attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,3);AddSpells(8fa33d71-9b60-47d3-826a-507d85d75b6a,,,,AlwaysPrepared);SelectPassives(fdd0a4e2-5499-44c7-beb3-c66216b6a618,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="1b4209ee-39ea-4c81-a2f0-99a2a454b544" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,1);AddSpells(8fa33d71-9b60-47d3-826a-507d85d75b6a,,,,AlwaysPrepared);SelectPassives(fdd0a4e2-5499-44c7-beb3-c66216b6a618,2)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_EssenceCasting;RestoreEvolutionPointsOnSummon" />
+		  <attribute id="Boosts" type="LSString" value="Proficiency(SimpleWeapons);Proficiency(LightArmor);ActionResource(EssencePoints,4,0);Tag(SORCERER_METAMAGIC)" />
+          <attribute id="Level" type="uint8" value="1" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+          <attribute id="IsMulticlass" type="bool" value="true" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="1400696f-609f-46f5-88c8-aab26a45f84c" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="AddSpells(b2b6030a-ddf6-4885-8c08-93dfa4846104,,,,AlwaysPrepared)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Evolutions_1" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0);ActionResource(EvolutionPoints,2,0)" />
+          <attribute id="Level" type="uint8" value="2" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="5f852af0-fdeb-4e11-8a1d-c198b7848614" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="SelectPassives(fdd0a4e2-5499-44c7-beb3-c66216b6a618,1)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Aspects;Unlock_Aspect_Growth_0" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,2,0)" />
+          <attribute id="Level" type="uint8" value="3" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="868b5845-0261-44b5-9544-8d38057cbce5" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="4" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="43e44c40-35db-476e-9fa9-7167eba364cc" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Aspect_Growth_1" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="5" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="a725a15c-859b-4105-9fc2-e60d739449f6" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="SelectPassives(47c720fa-00c4-4823-9ea6-0399c73c7667,1)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Evolutions_2" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,2,0);ActionResource(EvolutionPoints,2,0)" />
+          <attribute id="Level" type="uint8" value="6" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="98fe0a8d-4920-4cb5-a452-b7a0edbf824b" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Aspect_Growth_2" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="7" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="53295b10-28a6-4678-a7d0-0e34d0f60c19" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,2,0)" />
+          <attribute id="Level" type="uint8" value="8" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="9b9163ee-9a4b-4353-a1c8-c45587205269" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Aspect_Growth_3" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0);ActionResource(EvolutionPoints,2,0)" />
+          <attribute id="Level" type="uint8" value="9" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="f075ef06-28ec-4511-ade7-434594633b63" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="SelectPassives(47c720fa-00c4-4823-9ea6-0399c73c7667,1)" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Evolutions_3" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,2,0)" />
+          <attribute id="Level" type="uint8" value="10" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="bc96b307-c756-4e33-a056-07b1e8c217f2" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="Unlock_Aspect_Growth_4" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="11" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="ce212bce-b868-4307-83e5-7932c8228918" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,2,0)" />
+          <attribute id="Level" type="uint8" value="12" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="92363bdf-e442-4c45-a2a5-ff9b25412092" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="13" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="a9443a60-6663-46d0-bc6f-6115f6787ab7" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0);ActionResource(EvolutionPoints,2,0)" />
+          <attribute id="Level" type="uint8" value="14" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="8562c4ee-5035-4338-872d-d8d729457d0c" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="SelectPassives(47c720fa-00c4-4823-9ea6-0399c73c7667,1)" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="15" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="34c41106-6ee7-42e8-9314-6bb1d6085103" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="16" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="17ad0238-1382-42e0-8553-8685d6c72dc1" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="17" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="4c3508db-ea9d-4dc7-ab96-d0d77f6910bd" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0);ActionResource(EvolutionPoints,2,0)" />
+          <attribute id="Level" type="uint8" value="18" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="8d1d7544-4d42-4da2-a5c4-802901415e4b" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="true" />
+		  <attribute id="Selectors" type="LSString" value="SelectPassives(47c720fa-00c4-4823-9ea6-0399c73c7667,1)" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="19" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+        <node id="Progression">
+          <attribute id="UUID" type="guid" value="354c488d-c7d7-428a-9012-40120c5e1082" />
+		  <attribute id="TableUUID" type="guid" value="8c1d424e-5865-4063-b4de-81cf33ad0b2e" />
+          <attribute id="Name" type="LSString" value="Ritualist" />
+		  <attribute id="AllowImprovement" type="bool" value="false" />
+		  <attribute id="Selectors" type="LSString" value="" />
+		  <attribute id="PassivesAdded" type="LSString" value="" />
+		  <attribute id="Boosts" type="LSString" value="ActionResource(EssencePoints,1,0)" />
+          <attribute id="Level" type="uint8" value="20" />
+          <attribute id="ProgressionType" type="uint8" value="0" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
