@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hacrc00100000000000000000000000000001" version="1">Ritualist</content>
+	<content contentuid="hacrc00100000000000000000000000000002" version="1">Ritualist</content>
+	<content contentuid="hacrc00100000000000000000000000000003" version="1">Du hast nie gelernt die Magie zu nutzen wie es andere tun. Jedoch hast du okkulte Rituale erlernt um Wesen, denen Magie inne wohnt, Essenz zu enziehen und damit Magie zu wirken.</content>
+
+	<content contentuid="hacrc00200000000000000000000000000001" version="1">Essenz</content>
+	<content contentuid="hacrc00200000000000000000000000000002" version="1">Für später gespeicherte Essenz</content>
+	<content contentuid="hacrc00300000000000000000000000000001" version="1">Essenzbasierte Magie</content>
+	<content contentuid="hacrc00300000000000000000000000000002" version="1">Anstelle von Zauberslots nutzt der Ritualist Essenzpunkte um seine Magie zu wirken. Diese erhält er durch Rituale und magischen Symbolen, die er seiner Umgebung oder magischen Wesen entzieht.</content>
+
+	<content contentuid="hacrc001sum00000000000000000000000001" version="1">magischer Überträger</content>
+	<content contentuid="hacrc001sum00000000000000000000000002" version="1">Dieses beschworene Wesen überträgt Effekte deines Rituelle Entladungs.</content>
+	<content contentuid="hacrc002sum00000000000000000000000001" version="1">Inkarnation</content>
+	<content contentuid="hacrc002sum00000000000000000000000002" version="1">Beschwöre eine Inkarnation. Diese Kreatur ist deine Verbindung zu einem magischen Wesen einer anderen Ebene und dadurch die Quelle deiner Magie. Du kannst die Form der Inkarnation auswählen.</content>
+	<content contentuid="hacrc004sum00000000000000000000000001" version="1">Gebundener Mephit</content>
+	<content contentuid="hacrc004sum00000000000000000000000002" version="1">Beschwöre einen gebundenen Mephit. Dieser ist stationär an seinen Beschwörungskreis gebunden und kann nicht kontrolliert werden. Dauer: 3 Runden.</content>
+	<content contentuid="hacrc004sum00000000000000000000000003" version="1">Eis Mephit</content>
+	<content contentuid="hacrc004sum00000000000000000000000004" version="1">Feuer Mephit</content>
+	<content contentuid="hacrc004sum00000000000000000000000005" version="1">Erd Mephit</content>
+	<content contentuid="hacrc005sum00000000000000000000000001" version="1">Bund des Ritualisten</content>
+	<content contentuid="hacrc006sum00000000000000000000000001" version="1">Form: Quasit</content>
+	<content contentuid="hacrc006sum00000000000000000000000002" version="1">Form: Imp</content>
+	<content contentuid="hacrc006sum00000000000000000000000003" version="1">Form: Schlächterbrut</content>
+	<content contentuid="hacrc006sum00000000000000000000000004" version="1">Form: Kobold</content>
+	<content contentuid="hacrc006sum00000000000000000000000005" version="1">Form: Hölleneber</content>
+	<content contentuid="hacrc006sum00000000000000000000000006" version="1">Form: Orthon</content>
+	<content contentuid="hacrc007sum00000000000000000000000001" version="1">Declare Incarnate</content>
+	<content contentuid="hacrc007sum00000000000000000000000002" version="1">Make an active Summon or Familiar your Incarnate. Has to be recast after long Rest.</content>
+
+	<content contentuid="hacrc001aug00000000000000000000000001" version="1">Augmentation: Beschleunigt</content>
+	<content contentuid="hacrc001aug00000000000000000000000002" version="1">Nutze 1 Essenzpunkte um deine Rituelle Entladung, deinen Rituellen Hieb oder gebundenen Mephit als Bonusaktion auszuführen.</content>
+	<content contentuid="hacrc002aug00000000000000000000000001" version="1">Augmentation: Gespalten</content>
+	<content contentuid="hacrc002aug00000000000000000000000002" version="1">Nutze 2 Essenzpunkte um deine Rituelle Entladung, deinen Rituellen Hieb auf drei Ziele aufzuspalten oder Beschwöre 3 gebundene Mephit.</content>
+	<content contentuid="hacrc003aug00000000000000000000000001" version="1">Augmentation: Still</content>
+	<content contentuid="hacrc003aug00000000000000000000000002" version="1">Nutze einen Essenzpunkt um deine Rituelle Entladung, deinen Rituellen Hieb oder die Beschwörung eines gebundenen Mephit geräuschlos auszuführen. Unsichtbarkeit oder Schleichen wird dadurch nicht beendet.</content>
+	<content contentuid="hacrc004aug00000000000000000000000001" version="1">Augmentation: Erweitert</content>
+	<content contentuid="hacrc004aug00000000000000000000000002" version="1">You spend 1 Essence Points to change the next Blast to have Effect on an Area</content>
+	<content contentuid="hacrc005aug00000000000000000000000001" version="1">Augmentation: Aufgeladen</content>
+	<content contentuid="hacrc005aug00000000000000000000000002" version="1">Nutze zwei Essenzpunkte um deine Beschwörungen aufzuladen. Aufgeladene Beschwörungen erhalten eine zusätzliche Aktion. Wenn du Ritueller Hieb auf einen Gegner anwendest, erhältst du eine zusätzliche Bonusaktion.</content>
+	<content contentuid="hacrc005aug00000000000000000000000004" version="1">Aufgeladen</content>
+	<content contentuid="hacrc005aug00000000000000000000000005" version="1">Du kannst eine zusätzliche Aktion ausführen.</content>
+	<content contentuid="hacrc006aug00000000000000000000000001" version="1">Aufmentation: Überspringend</content>
+	<content contentuid="hacrc006aug00000000000000000000000002" version="1">Deine Rituelle Entladung springt von deiner Beschwörung auf einen Gegner über und verursacht 1d10 Energieschaden. Dein Ritueller Hieb erhält eine höhere Reichweite und zählt als Fernangriff, kostet jedoch einen Essenzpunkt.</content>
+	<content contentuid="hacrc007aug00000000000000000000000001" version="1">Augmenation: Verteidigend</content>
+	<content contentuid="hacrc007aug00000000000000000000000002" version="1">Für einen Essenzpunkt erteilt deine nächste Rituelle Entladung oder dein Ritueller Hieb einer deiner Beschwörungen den Befehl sich zu verteidigen. Deine Beschwörung kann nun Angriffe parrieren und kontern, jedoch ist seine Bewegungsreichweite halbiert. Greifst du einen Gegner mit Ritueller Hieb an, erhälst du diesen Effekt selbst.</content>
+	<content contentuid="hacrc007aug00000000000000000000000003" version="1">Defensiv</content>
+	<content contentuid="hacrc007aug00000000000000000000000004" version="1">Du kannst Angriffe parrieren und zurückschlagen, wenn der Gegner dich verfehlt. Deine Bewegungsreichweite ist halbiert.</content>
+	<content contentuid="hacrc008aug00000000000000000000000001" version="1">Augmentation: Verstärkt</content>
+	<content contentuid="hacrc008aug00000000000000000000000002" version="1">Nutze einen Essenzpunkt um deinen Magiemultiplikator (Zauberattribut) zum Schaden des nächsten Angriffs deiner Beschwörung hinzuzufügen. Wenn du deinen Rituellen Hieb benutzt, verusacht dieser 2 zusätzliche Schadenspunkte.</content>
+	<content contentuid="hacrc008aug00000000000000000000000003" version="1">Verstärkt</content>
+	<content contentuid="hacrc008aug00000000000000000000000004" version="1">Dein nächster Angriff verursacht erhöhten Schaden.</content>
+
+
+	<content contentuid="hacrc001bla00000000000000000000000001" version="1">Rituelle Entladung</content>
+	<content contentuid="hacrc001bla00000000000000000000000002" version="1">Nutze deine Beschwörungen als Überträger deiner Rituellen Entladung. Du kannst sie damit verstärken, heilen oder auch durch diese Angriffe in ihrer nähe ausführen, abhängig von den Augmenationen die du aktivierst (Augmenationen sind stapelbar).</content>	
+	<content contentuid="hacrc001bla00000000000000000000000003" version="1">Powerful Conduit Blast</content>
+	<content contentuid="hacrc001bla00000000000000000000000004" version="1">Reeling Conduit Blast</content>
+	<content contentuid="hacrc001bla00000000000000000000000005" version="1">Healing Conduit Blast</content>
+	<content contentuid="hacrc002bla00000000000000000000000001" version="1">Ritualwaffe</content>
+	<content contentuid="hacrc002bla00000000000000000000000002" version="1">Führe ein blutiges Ritual durch und erfülle deine auserwählte Waffe mit der damit gesammelten Essenz. Du kannst dafür eine Leiche verwenden oder das Blut eines lebenden Wesens. Verursacht Blutung bei jenem Wesen.</content>
+	<content contentuid="hacrc002bla00000000000000000000000003" version="1">Deine Ritualwaffe schalten deine Fähigkeiten frei um Essenz zu speichern oder zu manipulieren.</content>
+	<content contentuid="hacrc003bla00000000000000000000000001" version="1">Ritueller Hieb</content>
+	<content contentuid="hacrc003bla00000000000000000000000002" version="1">Greife deinen Gegner mit deiner von Essenz erfüllten Ritualwaffe an. Augmentationen funktionieren mit dieser Attacke.</content>		
+	<content contentuid="hacrc004bla00000000000000000000000001" version="1">Blutritual</content>
+	<content contentuid="hacrc004bla00000000000000000000000002" version="1">Füre ein Blutritual durch um die Essenz eines verstorbenen Wesens zu ernten. Stellt einen Essenzpunkt wieder her (nur möglich wenn man weniger als 4 Essenzpunkte gespeichert hat)</content>	
+
+	<content contentuid="hacrc001asp00000000000000000000000001" version="1">Aspekte</content>
+	<content contentuid="hacrc001asp00000000000000000000000002" version="1">Erfülle deine Inkarnation mit dem Aspekt eines möchtigen Wesens einer anderen Existenzebene. Du führst Rituale durch um eine parasitäre Verbindung zwischen dem Wesen und der Inkarnation herzustellen. Deine Inkarnation und du erhalten Eigenschaften und Charaktaristika die den Aspekt des Wesen wiederspiegeln.</content>
+
+
+	<content contentuid="hacrc002asp00000000000000000000000001" version="1">Engel</content>
+	<content contentuid="hacrc002asp00000000000000000000000002" version="1">Der Engel gewährt dir die Macht Elysiums zu unterstützen und zu schützen.</content>
+	<content contentuid="hacrc002asp00000000000000000000000003" version="1">Der Aspekt des Engels erfüllt dich. Deine Beschwörungen werden von 5 Gesundsheitspunkten geschützt die sich zu beginn jeder Kampfrunde erneuern.</content>
+	<content contentuid="hacrc002asp0000000000000000000spell01" version="1">Himmlische Präsenz</content>	
+	<content contentuid="hacrc002asp0000000000000000000spell02" version="1">Eine schützende Aura umgiebt dich. Sie wirkt 6 Meter um dich herum und schützt deine Verbündeten.</content>
+	<content contentuid="hacrc002asp0000000000000000000spell03" version="1">Himmlische Präsenz - Schutz</content>	
+	<content contentuid="hacrc002asp0000000000000000000spell04" version="1">Du bekommt seinen Bonus auf Rettungswürfe in der höhe des Zaubermodifikators des Ritualisten</content>
+	<content contentuid="hacrc002asp0000000000000000000spell05" version="1">Himmlische Präsenz - Ermutigung</content>	
+	<content contentuid="hacrc002asp0000000000000000000spell06" version="1">Deine Angriffe verursachen 1d4 Lichtschaden und deine Angriffswürfe sind um 1d4 erhöht.</content>
+	<content contentuid="hacrc002asp0000000000000000000spell07" version="1">Himmlische Präsenz - Beschützend</content>	
+	<content contentuid="hacrc002asp0000000000000000000spell08" version="1">Schaden erhältst nur den halben Schaden.</content>
+	<content contentuid="hacrc002asp0000000000000000000spell09" version="1">Himmlische Präsenz - Heilend</content>	
+	<content contentuid="hacrc002asp0000000000000000000spell10" version="1">Während du dich im Kampf befindest wirst du jede Runde um 1d8+Weisheitsmodifikator des Ritualisten geheilt.</content>
+	
+	<content contentuid="hacrc003asp00000000000000000000000001" version="1">Winterhexe</content>
+	<content contentuid="hacrc003asp00000000000000000000000002" version="1">Die Winterhexe gewährt dir die Macht das Schlachtfeld mit Eis zu kontrollieren und deine Gegner zu behindern.</content>
+	<content contentuid="hacrc003asp00000000000000000000000003" version="1">Aura der Kälte</content>
+	<content contentuid="hacrc003asp00000000000000000000000004" version="1">Gegner werden von der Aura der Kälte vereist und sind dadurch anfällig für Kälteschaden.</content>
+	<content contentuid="hacrc003asp00000000000000000000000005" version="1">Der Aspekt der Eishexe erfüllt dich. Dein Eis Mephit verursacht Eisflächen wenn sie angreift.</content>
+	<content contentuid="hacrc003asp0000000000000000000spell01" version="1">Eisexplosion</content>
+	<content contentuid="hacrc003asp0000000000000000000spell02" version="1">Sprenge gefrorenen Boden und verursache dadurch eine eisige Explosion</content>	
+	<content contentuid="hacrc003asp0000000000000000000spell03" version="1">Fluch des Raufreif</content>
+	<content contentuid="hacrc003asp0000000000000000000spell04" version="1">Das Opfer ist anfällig für Eis und Schlagschaden. Der Raureif fürgt dem Opfer Schaden zu und blockiert auch Reaktionen und Zusatzangriffe.</content>	
+	<content contentuid="hacrc003asp0000000000000000000spell05" version="1">Raureif</content>
+	<content contentuid="hacrc003asp0000000000000000000spell06" version="1">Du bist anfällig für Kälte- und Schlagschaden, deine Reaktionen und Zusatzangriffe sind blockiert. Weiters erhältst du jede Runde 2d4 Kälteschaden.</content>	
+	<content contentuid="hacrc003asp0000000000000000000spell07" version="1">Durch das Eis</content>
+	<content contentuid="hacrc003asp0000000000000000000spell17" version="1">Teleportiere dich zu einem Bereich deiner wahl mit gefrorenem Boden.</content>
+	<content contentuid="hacrc003asp0000000000000000000spell08" version="1">Kaskadierende Eisexplosion</content>
+	<content contentuid="hacrc003asp0000000000000000000spell19" version="1">Sprenge geforenen Boden in 3 eisigen Explosionen</content>
+	<content contentuid="hacrc003asp0000000000000000000spell20" version="1">Einfrieren</content>
+
+	<content contentuid="hacrc005asp00000000000000000000000001" version="1">Fee</content>
+	<content contentuid="hacrc005asp00000000000000000000000002" version="1">Die Fee gewährt dir die Kraft über Irrlichter um mit dem Verstand deiner Feinde zu spielen.</content>
+	<content contentuid="hacrc005asp00000000000000000000000003" version="1">Der Aspekt der Fee erfüllt dich. Deine Mephits ändern ihren Angriffszauber abhängig welches Irrlicht auf sie wirkt.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell01" version="1">Flüsterndes Irrlicht.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell02" version="1">Das dissonante Geflüster dieses Irrlichts schreckt deine Feinde. </content>
+	<content contentuid="hacrc005asp0000000000000000000spell03" version="1">Dissonantes Geflüster</content>
+	<content contentuid="hacrc005asp0000000000000000000spell04" version="1">Versucht deine Feinde jede runde zu erschrecken. Dein Verkörperter und deine Mephits im Wirkungsbereich können den Zauber Dissonantes Geflüster wirken.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell05" version="1">Dissonantes Geflüster sucht dich heim.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell06" version="1">Irrlicht des Wahnsinns</content>
+	<content contentuid="hacrc005asp0000000000000000000spell07" version="1">Dieses Irrlicht versucht Wahnsinn in den Verstand deiner Feinde zu sähen. Dein Verkörperter und deine Mephits im Wirkungbereich können den Zauber illusionöre Kraft wirken.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell08" version="1">Wahnsinn</content>
+	<content contentuid="hacrc005asp0000000000000000000spell09" version="1">Versucht deine Feinde jede Runde in den Wahnsinn zu treiben. Dein Verkörperter und deine Mephits im Wirkungbereich können den Zauber illusionöre Kraft wirken.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell10" version="1">Etwas versucht dich in den Wahnsinn zu treiben.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell11" version="1">Hypnotisches Irrlicht</content>
+	<content contentuid="hacrc005asp0000000000000000000spell12" version="1">Dieses Irrlicht hypnotisiert deine Feinde. Dein Verkörperter und deine Mephits im Wirkungbereich verursachen erhöhten Schaden an hypnotisierten Gegnern.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell13" version="1">hypnotisierend</content>
+	<content contentuid="hacrc005asp0000000000000000000spell14" version="1">Versucht jede Runde deine Feinde zu hypnotisieren. Dein Verkörperter und deine Mephits verursachen erhöhten Schaden an hypnotisierten Gegnern.</content>
+	<content contentuid="hacrc005asp0000000000000000000spell15" version="1">Etwas sehr hypnotisches flüstert zu mir.</content>	
+	<content contentuid="hacrc005asp0000000000000000000spell16" version="1">Quallenschwarm</content>
+	<content contentuid="hacrc005asp0000000000000000000spell17" version="1">Beschwöre einen Schwarm von Quallen die am Ende der Runde explodieren. Verursacht doppelten Schaden an Gegnern die unter Einfluss eines Irrlichts sind. Beschwörungen im Wirkungsbereich der Explosion erhalten eine Essenzladung.</content>		
+	<content contentuid="hacrc005asp0000000000000000000spell18" version="1">Phantommörder</content>
+	<content contentuid="hacrc005asp0000000000000000000spell19" version="1">Die größten Ängste deines Feindes suchen ihn heim. Sie erhält 3d10 Schaden jede Runde, kann sich nicht bewegen, und hat einen nachteil auf Angriffs und Fähigkeitswürffe. Verursacht zusätzlichen Schaden an Gegnern die unter Einfluss eines Irrlichts stehen.</content>		
+
+	<content contentuid="hacrc006asp00000000000000000000000001" version="1">Dämon</content>
+	<content contentuid="hacrc006asp00000000000000000000000002" version="1">Der Dämon gewäht dir die Macht des ewigen Blutrausches der neun Höllen.</content>
+	<content contentuid="hacrc006asp00000000000000000000000003" version="1">Der Aspekt des Dämonen erfüllt dich. Deine Mephits können nun Flammenschlag zaubern während du im Blutrausch bist. Flammenschlag lässt deine Inkarnation in Raserei verfallen.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell01" version="1">Gewähre Dämonenwut</content>
+	<content contentuid="hacrc006asp0000000000000000000spell02" version="1">Versetze einen deiner Verbündeten in einen Blutrausch. Der Verbündete kann für die Dauer des Blutrausches nicht kontrolliert werden, verursacht jedoch mehr Schaden und ist robuster. Während des Blutrausches zählt der Verbündete als einer deiner Beschwörungen bzw. Verkörperter. Wenn der Blutrausch endet, ist der Verbündete für zwei Runden erschöpft.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell03" version="1">Dämonenwut</content>
+	<content contentuid="hacrc006asp0000000000000000000spell04" version="1">Verursache brennende Raserei</content>
+	<content contentuid="hacrc006asp0000000000000000000spell05" version="1">Versuche einen Gegner in brennende Raserei zu versetzen. Wenn der Gegner in Raserei verfällt, kann es sein, dass sie seine Waffe fallen lässt und dich mit bloßen Händen attackiert. Außerdem wird er für die Dauer der Raserei in Flammen gehüllt die ihn langsam verzehren und jede Runde Feuerschaden verursachen. Außerdem seine Angriffe nicht mehr so treffsicher und er erhält einen Malus von 1d4 auf Angriffswürfe.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell06" version="1">Brennende Raserei</content>
+	<content contentuid="hacrc006asp0000000000000000000spell07" version="1">Eine Brennende Raserei verzehrt dich. Du erhältst jede Runde Feuerschaden und deine Angriffswürfe sind um 1d4 reduziert.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell08" version="1">Dämonische Raserei</content>
+	<content contentuid="hacrc006asp0000000000000000000spell09" version="1">Gib dich deinem dämonischen Aspekt hin. Du verfällst in eine dämonische Raserei wodurch dir Klauen wachsen, du schneller und robuster wirst. Außerdem kannst du Flammenschlag nun als Bonusaktion ausführen. Wenn du am Ende einer Runde keinen Schaden verursacht hast, ended die Raserei und du bist 2 Runden erschöpft.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell10" version="1">Du bist in dämonische Raserei wodurch dir Klauen wachsen gewachsen sind. Du bist schneller und robuster. Außerdem kannst du Flammenschlag nun als Bonusaktion ausführen. Wenn du am Ende einer Runde keinen Schaden verursacht hast, ended die Raserei und du bist 2 Runden erschöpft.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell11" version="1">Klauen</content>
+	<content contentuid="hacrc006asp0000000000000000000spell12" version="1">Greife deinen Gegner mit deinen dämonischen Klauen an.</content>	
+	<content contentuid="hacrc006asp0000000000000000000spell13" version="1">Absolute dämonische Raserei</content>
+	<content contentuid="hacrc006asp0000000000000000000spell14" version="1">Gib dich deinem dämonischen Aspekt hin. Du verfällst in absolute dämonische Raserei wodurch dir brennende Klauen wachsen, du bist deutlich schneller und viel robuster wirst. Außerdem kannst du Flammenschlag nun als Bonusaktion ausführen. Wenn du am Ende einer Runde keinen Schaden verursacht hast, ended die Raserei und du bist 2 Runden erschöpft.</content>
+	<content contentuid="hacrc006asp0000000000000000000spell15" version="1">Du bist in absoluter dämonischen Raserei wodurch dir brennende Klauen gewachsen sind. Du bist deutlich schneller und viel robuster. Außerdem kannst du Flammenschlag nun als Bonusaktion ausführen. Wenn du am Ende einer Runde keinen Schaden verursacht hast, ended die Raserei und du bist 2 Runden erschöpft.</content>
+
+	<content contentuid="hacrc007asp00000000000000000000000001" version="1">Lich</content>
+	<content contentuid="hacrc007asp00000000000000000000000002" version="1">Der Lich gewährt dir und deinem Verkörperten die Macht der Korruption und die Kontrolle über die Untoten.</content>
+	<content contentuid="hacrc007asp00000000000000000000000003" version="1">korrumpierende Aura</content>
+	<content contentuid="hacrc007asp00000000000000000000000004" version="1">Beschwörungen unter dem Einfluss deiner korrumpierenden Aura verurschen eitrige Wunden.</content>
+	<content contentuid="hacrc007asp00000000000000000000000005" version="1">Der Aspekt des Lich erfüllt dich. Deine Beschwörungen verursachen mit ihren Angriffen eiternde Wunden.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell01" version="1">Fluchträger</content>
+	<content contentuid="hacrc007asp0000000000000000000spell02" version="1">Mache deine Beschwörung zu einem Fluchträger. Der nächste Angriff deiner Beschwörung verursacht den Fluch mit dem sie belegt wurde.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell03" version="1">Fluch der Selbstschädigung</content>
+	<content contentuid="hacrc007asp0000000000000000000spell04" version="1">Das Opfer dieses Fluches hat einen Malus von 1d4 auf Angriffswürfe und schneidet sich bei jedem Anngriff selbst, wodurch es zu bluten beginnt.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell05" version="1">Verflucht! Deine Angriffswürfe sind um 1d4 reduziert und du schneidest dich bei jeden Angriff selbst.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell06" version="1">Der nächste Angriff verursacht den Fluch der Selbstschädigung bei deinem Gegner.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell07" version="1">Fluch des Fehlzaubers</content>
+	<content contentuid="hacrc007asp0000000000000000000spell08" version="1">Das Opfer hat einen Malus von 1 auf seine Zauberwürfe und wird nach dem Ausführen eines Zaubers beommen.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell09" version="1">Verflucht! Deine Zauberwürfe sind um 1 reduziert und nach dem Ausführen eines Zaubers bist du benommen.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell10" version="1">Dein nächster Angriff The next Attack applies the Curse of Spellfail to your foe.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell11" version="1">Verursache eiternde Wunden</content>
+	<content contentuid="hacrc007asp0000000000000000000spell12" version="1">Verursache durch eiternde Wunden nekrotischen Schaden bei deinen Gegnern.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell13" version="1">Eiternde Wunde</content>
+	<content contentuid="hacrc007asp0000000000000000000spell14" version="1">Verursacht 2 nekrotischen Schaden jede Runde. Für jeden Fluch, jedes Gift und jede Plage verursachen eitrige Wunden weiter 2 Schaden.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell15" version="1">Beschwöre griechende Hand</content>
+	<content contentuid="hacrc007asp0000000000000000000spell16" version="1">Beschwöre eine kriechende untote Hand die 1d4 Schaden zufügt und eine Infektion verursachen kann.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell17" version="1">Kriechende Hand</content>
+	<content contentuid="hacrc007asp0000000000000000000spell18" version="1">Diese untote griechende Hand greift deine Gegner an und verursacht Infektionen.</content>	
+	<content contentuid="hacrc007asp0000000000000000000spell19" version="1">Eiternde Wunde</content>
+	<content contentuid="hacrc007asp0000000000000000000spell20" version="1">Verursache 2 nekrotischen Schaden jede Runde und weitere 2 nekrotischen Schaden für jeden Fluch, jedes Gift und jede Plage unter dem der Gegner leidet.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell21" version="1">Explodierende Leiche</content>
+	<content contentuid="hacrc007asp0000000000000000000spell22" version="1">Lasse eine Leiche explodieren wodurch sie eine ätzende Masse freisetzt die eiternde Wunden allen im näheren Umkreis verursacht.</content>
+
+
+	<content contentuid="hacrc008asp00000000000000000000000001" version="1">Schatten</content>
+	<content contentuid="hacrc008asp00000000000000000000000002" version="1">Zapfe die Mächte der Schattenebene direk an und gewähre der Inkarnation und dir die Macht in den Schatten zu wandeln und unerwartet daraus zuzuschlagen.</content>
+	<content contentuid="hacrc008asp00000000000000000000000003" version="1">Der Aspekt des Schattens erfüllt dich. Deine Mephits sind die erste Runde über unsichtbar und verursachen erhöhten Schaden, solange sie unendeckt sind.</content>
+
+	<content contentuid="hacrc099asp0000000000000000000000000t" version="1">Gestärkter Apsekt (Test)</content>
+	<content contentuid="hacrc099asp00000000000000000000000001" version="1">Gestärkter Apsekt - Stufe 1</content>
+	<content contentuid="hacrc099asp00000000000000000000000002" version="1">Gestärkter Apsekt - Stufe 2</content>
+	<content contentuid="hacrc099asp00000000000000000000000003" version="1">Gestärkter Apsekt - Stufe 3</content>
+	<content contentuid="hacrc099asp00000000000000000000000004" version="1">Gestärkter Apsekt - Stufe 4</content>
+	<content contentuid="hacrc099asp00000000000000000000000005" version="1">Deine Aspekte werden stärker und gewähren zusätzliche Fähigkeiten oder Bonis. Mephits verursachen nun zusätzliche Effekte abhängig von ihrem Element.</content>
+	<content contentuid="hacrc099asp00000000000000000000000099" version="1">Deine Aspekte werden stärker und gwähren dir, als auch deinem Verkörperten, zusätzliche Fähigkeiten und Bonis.</content>	
+
+	<content contentuid="hacrc001evo00000000000000000000000001" version="1">Evolution</content>
+	<content contentuid="hacrc001evo00000000000000000000000002" version="1">Evolutionen gewähren der Inkarnation zusätzliche Eigenschaften.</content>
+	<content contentuid="hacrc002evo00000000000000000000000001" version="1">Einfache Evolutionen</content>
+	<content contentuid="hacrc002evo00000000000000000000000002" version="1">Einfache Evolutionen die kleiner nützliche Erweiterungen gewähren.</content>
+	<content contentuid="hacrc003evo00000000000000000000000001" version="1">Evolutionen zurücksetzen</content>
+	<content contentuid="hacrc003evo00000000000000000000000002" version="1">Enfernt alle Evolutionen und refundiert alle Evolutionspunkte</content>
+	<content contentuid="hacrc004evo00000000000000000000000001" version="1">psionisch Angriffe</content>
+	<content contentuid="hacrc004evo00000000000000000000000002" version="1">Fügt 1d4 Schaden (Psionisch) bei Nahkampfangriffen zu.</content>
+	<content contentuid="hacrc005evo00000000000000000000000001" version="1">machtvolle Angriffe</content>
+	<content contentuid="hacrc005evo00000000000000000000000002" version="1">Fügt 1d4 Schaden (Energie) bei Nahkampfangriffen zu.</content>
+	<content contentuid="hacrc006evo00000000000000000000000001" version="1">Giftige Angriffe</content>
+	<content contentuid="hacrc006evo00000000000000000000000002" version="1">Fügt 1d4 Schaden (Gift) bei Nahkampfangriffen zu.</content>
+	<content contentuid="hacrc007evo00000000000000000000000001" version="1">Biss</content>
+	<content contentuid="hacrc007evo00000000000000000000000002" version="1">Die Inkarnation kann nun als Bonusaktion einen Biss ausführen. Dieser Angriff verursacht 1d6 Stichschaden.</content>
+	<content contentuid="hacrc008evo00000000000000000000000001" version="1">Spürsinn</content>
+	<content contentuid="hacrc008evo00000000000000000000000002" version="1">Der Spürsinn der Inkarnation wird geschärft. Sie kann versteckte Gegner und Gegenstände aufspüren.</content>
+	<content contentuid="hacrc009evo00000000000000000000000001" version="1">Anspringen</content>
+	<content contentuid="hacrc009evo00000000000000000000000002" version="1">Die Beine der Inkarnation werden stärke, sodass sie deine Gegner anspringen und aus dem Gleichgewicht bringen kann.</content>
+	
+	<content contentuid="hacrc010evo00000000000000000000000001" version="1">verbesserte Evolutionen</content>
+	<content contentuid="hacrc010evo00000000000000000000000002" version="1">Evolutionen gewähren der Inkarnation zusätzliche Eigenschaften.</content>
+	<content contentuid="hacrc011evo00000000000000000000000001" version="1">Camäleonhaut</content>
+	<content contentuid="hacrc011evo00000000000000000000000002" version="1">Die Haut der Inkarnation kann sich an ihre Umgebung anpassen und lässt ihn unsichtbar erscheinen.</content>
+	<content contentuid="hacrc012evo00000000000000000000000001" version="1">resistente Haut</content>
+	<content contentuid="hacrc012evo00000000000000000000000002" version="1">Die Haut der Inkarnation wird resiistenter gegen magische Einwirkungen.</content>
+	<content contentuid="hacrc013evo00000000000000000000000001" version="1">stählerne Haut</content>
+	<content contentuid="hacrc013evo00000000000000000000000002" version="1">Die Haut der Inkarnation wird hart wie Stahl. Physische Angriffe verursachen nur halben Schaden.</content>
+	<content contentuid="hacrc014evo00000000000000000000000001" version="1">Helferinstinkt</content>
+	<content contentuid="hacrc014evo00000000000000000000000002" version="1">Die Inkarnation eilt instinktiv seinen Verbündeten zur Hilfe. Schaltet die Helfen-Fähigkeit frei, sowie einen moderaten Heilzauber.</content>
+	<content contentuid="hacrc015evo00000000000000000000000001" version="1">Ermüdende Hiebe</content>
+	<content contentuid="hacrc015evo00000000000000000000000002" version="1">Die Hiebe der Inkarnation werden so wuchtig, dass getroffene Gegner dadurch schneller ermüden als gewöhnlich.</content>
+	<content contentuid="hacrc015evo00000000000000000000000003" version="1">Ausgelaugt</content>
+	<content contentuid="hacrc015evo00000000000000000000000004" version="1">Du bist ausgelaugt. Schadens- und Trefferwürfe sind um 2 reduziert.</content>
+	<content contentuid="hacrc016evo00000000000000000000000001" version="1">Legendäre Evolutionen</content>
+	<content contentuid="hacrc016evo00000000000000000000000002" version="1">Evolutionen gewähren der Inkarnation zusätzliche Eigenschaften.</content>
+	<content contentuid="hacrc017evo00000000000000000000000001" version="1">Riese</content>
+	<content contentuid="hacrc017evo00000000000000000000000002" version="1">Die Inkarnation wächst zu beachtlicher Größe heran und teilt dadurch mehr aus und steckt auch mehr ein. Sie zählt für Stärkewürfe als riesig und erhält auch einen Vorteil auf diese Würfe.</content>
+	<content contentuid="hacrc018evo00000000000000000000000001" version="1">Furchteinflößende Präsenz</content>
+	<content contentuid="hacrc018evo00000000000000000000000002" version="1">Die Inkarnation strahlt eine Aura des Schrecken aus. Sie erhält ein furcherregendes Gebrüll, dass Feinde in Angst und Schrecken versetzen kann.</content>	
+	<content contentuid="hacrc019evo00000000000000000000000001" version="1">Spitzenprädator</content>
+	<content contentuid="hacrc019evo00000000000000000000000002" version="1">Deine Verkörperung wird zu einem geborenen Hetzjäger. Sie wird schneller, weicht besser eingehendem Schaden aus und wird auch nicht mehr durch schwieriges Gelände gebremst.</content>
+	<content contentuid="hacrc020evo00000000000000000000000001" version="1">Giftiger Speichel</content>
+	<content contentuid="hacrc020evo00000000000000000000000002" version="1">Der Inkarnation wächst eine Giftdrüse womit sie Gift auf ihre Gegner spucken kann.</content>
+	<content contentuid="hacrc020evo00000000000000000000000003" version="1">Spucke Gift auf einen Gegner.</content>
+	<content contentuid="hacrc021evo00000000000000000000000001" version="1">Flinke Klauen</content>
+	<content contentuid="hacrc021evo00000000000000000000000002" version="1">Die Finger der Inkarnation werden langgliedriger und äußerst geschickt, sodass sie damit mühelos Schlösser aller Art knacken kann.</content>
+	<content contentuid="hacrc021evo00000000000000000000000003" version="1">Schloss knacken</content>
+	<content contentuid="hacrc021evo00000000000000000000000004" version="1">Versuche ein Schloss zu knacken.</content>	
+</contentList>

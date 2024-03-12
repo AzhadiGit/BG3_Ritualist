@@ -29,19 +29,19 @@
 	<content contentuid="hacrc007sum00000000000000000000000002" version="1">Make an active Summon or Familiar your Incarnate. Has to be recast after long Rest.</content>
 
 	<content contentuid="hacrc001aug00000000000000000000000001" version="1">Augment: Quickend</content>
-	<content contentuid="hacrc001aug00000000000000000000000002" version="1">You spend 2 Essence Points to cast the next Ritual Blast, Ritual Strike or Bound Mephit Summon as a Bonus Action</content>
+	<content contentuid="hacrc001aug00000000000000000000000002" version="1">You spend 1 Essence Points to cast the next Ritual Blast, Ritual Strike or Bound Mephit Summon as a Bonus Action</content>
 	<content contentuid="hacrc002aug00000000000000000000000001" version="1">Augment: Forked</content>
-	<content contentuid="hacrc002aug00000000000000000000000002" version="1">You spend 3 Essence Points to split your next Ritual Blast, Ritual Strike into 3 or to summon 3 Bound Mephits.</content>
+	<content contentuid="hacrc002aug00000000000000000000000002" version="1">You spend 2 Essence Points to split your next Ritual Blast, Ritual Strike into 3 or to summon 3 Bound Mephits.</content>
 	<content contentuid="hacrc003aug00000000000000000000000001" version="1">Augment: Silent</content>
 	<content contentuid="hacrc003aug00000000000000000000000002" version="1">You spend 1 Essence Point to cast the next Ritual Blast, Ritual Strike or Bound Mephit Summon silently. They do not break stealth.</content>
 	<content contentuid="hacrc004aug00000000000000000000000001" version="1">Augment: Wide</content>
 	<content contentuid="hacrc004aug00000000000000000000000002" version="1">You spend 2 Essence Points to change the next Blast to have Effect on an Area</content>
 	<content contentuid="hacrc005aug00000000000000000000000001" version="1">Augment: Charged</content>
-	<content contentuid="hacrc005aug00000000000000000000000002" version="1">You spend 2 Essence Points to charge up your Summons, giving them an additional Action. If you attack an Enemy with Ritual Strike, you charge yourself to recieve an addition Bonusaction.</content>
+	<content contentuid="hacrc005aug00000000000000000000000002" version="1">You spend 1 Essence Points to charge up your Summons, giving them an additional Action. If you attack an Enemy with Ritual Strike, you charge yourself to recieve an addition Bonusaction.</content>
 	<content contentuid="hacrc005aug00000000000000000000000004" version="1">Charged</content>
 	<content contentuid="hacrc005aug00000000000000000000000005" version="1">Gain an additional Action.</content>
 	<content contentuid="hacrc006aug00000000000000000000000001" version="1">Augment: Leashing</content>
-	<content contentuid="hacrc006aug00000000000000000000000002" version="1">Your Blast leaps from your Summon to a foe dealing 1d10 Force damage. If you attack an Enemy with Ritual Strike, you heal a nearby Summon for 1d10.</content>
+	<content contentuid="hacrc006aug00000000000000000000000002" version="1">Your Blast leaps from your Summon to a foe dealing 1d10 Force damage. Ritual Strike becomes an ranged Attack and costs 1 Essence Point.</content>
 	<content contentuid="hacrc007aug00000000000000000000000001" version="1">Augment: Defensive</content>
 	<content contentuid="hacrc007aug00000000000000000000000002" version="1">You spend 1 Essence Point to have your next Blast command your Summon to defend and counter attacks aimed at them. Movement is halved. If you attack an Enemy with Ritual Strike, you recieve the effect.</content>
 	<content contentuid="hacrc007aug00000000000000000000000003" version="1">Defensive</content>
@@ -159,7 +159,7 @@
 	<content contentuid="hacrc007asp0000000000000000000spell11" version="1">Inflict festering Wounds</content>
 	<content contentuid="hacrc007asp0000000000000000000spell12" version="1">Deal necrotic damage to your victim and causes a festering wound.</content>
 	<content contentuid="hacrc007asp0000000000000000000spell13" version="1">Festering Wounds</content>
-	<content contentuid="hacrc007asp0000000000000000000spell14" version="1">Deals 1d6 Necrotic Damage each turn and additional 1d6 Necrotic Damage for each curse, poison or plague the victim suffers from.</content>
+	<content contentuid="hacrc007asp0000000000000000000spell14" version="1">Deals 2 Necrotic Damage each turn and additional 2 Necrotic Damage for each curse, poison or plague the victim suffers from.</content>
 	<content contentuid="hacrc007asp0000000000000000000spell15" version="1">Summon Clawed Hand</content>
 	<content contentuid="hacrc007asp0000000000000000000spell16" version="1">Summon an undead Clawed Hand that deals 1d4 damage and can infect its victims. Very handy!</content>
 	<content contentuid="hacrc007asp0000000000000000000spell17" version="1">Clawed Hand</content>
