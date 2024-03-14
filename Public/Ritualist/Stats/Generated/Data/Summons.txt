@@ -63,13 +63,16 @@ data "StatusEffect" ""
 new entry "INCARNATE_STUN"
 type "StatusData"
 data "StatusType" "BOOST"
-data "Icon" "none"
+data "Icon" "RIT_Skill_Evo1"
+data "DisplayName" "hacrc022evo00000000000000000000000001"
+data "Description" "hacrc022evo00000000000000000000000002"
 data "StackId" "INCARNATE_STUN"
 data "StackType" "Overwrite"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "Boosts" "ActionResourceBlock(Movement)"
-data "StatusEffect" "4a7f6272-a328-487e-9a3d-ebbea942a223"
+data "ApplyEffect" "a9c27d75-ec3d-445f-b055-1b37832b17fc"
+data "StatusEffect" "f1f32058-58e9-4b39-98e4-eef5fa389a25"
 
 // ===============
 // Incarnate

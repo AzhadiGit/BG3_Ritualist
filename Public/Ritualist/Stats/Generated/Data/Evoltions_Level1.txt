@@ -2,7 +2,7 @@ new entry "Unlock_Evolutions_1"
 type "PassiveData"
 data "DisplayName" "hacrc002evo00000000000000000000000001;2"
 data "Description" "hacrc002evo00000000000000000000000002;2"
-data "Icon" "Action_BolsteringMagic_Boost_1"
+data "Icon" "RIT_Skill_Evo1"
 data "Boosts" "UnlockSpell(Projectile_RemoveEvolutions);UnlockSpell(Target_Evolutions_1)"
 
 
