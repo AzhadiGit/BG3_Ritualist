@@ -9,7 +9,7 @@ new entry "Target_Evolutions_3"
 type "SpellData"
 data "SpellType" "Target"
 data "TargetRadius" "3"
-data "ContainerSpells" "Target_Evo_Giant;Target_Evo_Frightful;Target_Evo_Hunter"
+data "ContainerSpells" "Target_Evo_Giant;Target_Evo_Frightful;Target_Evo_Hunter;Target_Evo_Smart"
 data "TargetConditions" "HasStatus('ISINCARNATE')"
 //data "Icon" "Action_BolsteringMagic_Boost_3"
 data "Icon" "RIT_Skill_Evo1"
@@ -51,7 +51,7 @@ data "DisplayName" "hacrc017evo00000000000000000000000001;1"
 data "Description" "hacrc017evo00000000000000000000000002;1"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "Boosts" "Advantage(Ability, Strength);Advantage(Ability, Constitution);AbilityOverrideMinimum(Strength,22);AbilityOverrideMinimum(Constitution,20);BonusDamage(1d6,Bludgeoning);IncreaseMaxHP(20%);ObjectSize(+2);ScaleMultiplier(2)"
+data "Boosts" "Advantage(Ability, Strength);Ability(Strength, 4);Ability(Constitution, 4);IF(IsMeleeAttack()):BonusDamage(4,Bludgeoning);ObjectSize(+2);ScaleMultiplier(2)"
 data "Passives" ""
 
 
@@ -74,19 +74,31 @@ data "DisplayName" "hacrc018evo00000000000000000000000001;1"
 data "Description" "hacrc018evo00000000000000000000000002;1"
 data "Icon" "Spell_Illusion_Fear"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "Boosts" "UnlockSpell(Shout_FrightfulPresence_Incarnate);AbilityOverrideMinimum(Intelligence,22);AbilityOverrideMaximum(Charisma,8);IncreaseMaxHP(10%)"
+data "Boosts" "UnlockSpell(Target_Scare_Quasit)"
 data "Passives" ""
+data "AuraRadius" "3"
+data "AuraStatuses" "TARGET:IF(IsEnemy() and not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(EVO_FRIGHTENED,100,-1)"
+data "StatusEffect" ""
 
-new entry "Shout_FrightfulPresence_Incarnate"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_FrightfulPresence_Dragon_Skeletal"
-data "SpellSuccess" "ApplyStatus(FEARED,100,2);ApplyStatus(RAY_OF_ENFEEBLEMENT,100,2);"
-data "Icon" "Spell_Illusion_Fear"
-data "UseCosts" "ActionPoint:1;BonusActionPoint:1"
-data "CastSound" "CrSpell_Cast_RedDragon_FrightfulPresence"
-data "TargetSound" "CrSpell_Impact_RedDragon_FrightfulPresence"
-data "CastEffect" "c72230c5-a757-40ba-b704-9219d7ffc0f5"
+new entry "EVO_FRIGHTENED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h08166cc8g5846g432cgbdbfg289f214ce12a;2"
+data "Description" "hdd315742g68c2g470bga2eagab6d1a97ebf6;7"
+data "Icon" "Status_Frightened"
+data "FormatColor" "White"
+data "StillAnimationType" "Frightened"
+data "StillAnimationPriority" "Feared"
+data "StackId" "EVO_FRIGHTENED"
+data "TickType" "EndTurn"
+data "Boosts" "HalveWeaponDamage(Strength);Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement)"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "RemoveEvents" "OnTurn"
+data "TooltipSave" "Wisdom"
+data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
+
+
+
 
 
 // Cursorial Hunter
@@ -108,5 +120,71 @@ data "DisplayName" "hacrc019evo00000000000000000000000001;1"
 data "Description" "hacrc019evo00000000000000000000000002;1"
 data "Icon" "Spell_Transmutation_Haste"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "Boosts" "Advantage(Ability, Dexterity);AC(2);AbilityOverrideMinimum(Dexterity,22);IncreaseMaxHP(10%);ActionResource(Movement,6,0);StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Restrained);StatusImmunity(SG_DifficultTerrain);ActionResourcePreventReduction(Movement)"
-data "Passives" "EVASION;UncannyDodge"
+data "Boosts" "Advantage(Ability, Dexterity);Ability(Dexterity, 4);ActionResource(Movement,6,0);StatusImmunity(SG_DifficultTerrain)"
+data "Passives" "Evo_Hunter_Passive"
+
+new entry "Evo_Hunter_Passive"
+type "PassiveData"
+data "StatsFunctorContext" "OnDamage"
+data "Properties" "IsHidden"
+data "Conditions" "IsMeleeAttack()"
+data "StatsFunctors" "ApplyStatus(RIT_EXPLOIT_WEAKNESS, 100, 2)"
+
+new entry "RIT_EXPLOIT_WEAKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hacwc0000000000000000000000000feat063;1"
+data "Description" "hacwc0000000000000000000000000feat064;2"
+data "Icon" "Spell_Enchantment_CompelledDuel"
+data "StackType" "Overwrite"
+data "IsUnique" "1"
+data "StackId" "RIT_EXPLOIT_WEAKNESS"
+data "SoundStart" "Spell_Status_HuntersMark_MO"
+data "SoundLoop" "Spell_Status_HuntersMark_MO_Stop"
+data "StatusEffect" "0d122bff-6d13-4373-a807-b8663d48559e"
+data "Passives" "RIT_ExploitWeakness_debuff"
+
+new entry "RIT_ExploitWeakness_debuff"
+type "PassiveData"
+data "DisplayName" "hacwc0000000000000000000000000feat063;1"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "(IsAttack() or IsSpell()) and TotalDamageDoneGreaterThan(0)"
+data "StatsFunctors" "IF(HasAttackDamageDoneForType(DamageType.Slashing)):DealDamage(1d6, Slashing);IF(HasAttackDamageDoneForType(DamageType.Piercing)):DealDamage(1d6, Piercing);IF(HasAttackDamageDoneForType(DamageType.Bludgeoning)):DealDamage(1d6, Bludgeoning);IF(HasAttackDamageDoneForType(DamageType.Acid)):DealDamage(1d6, Acid);IF(HasAttackDamageDoneForType(DamageType.Thunder)):DealDamage(1d6, Thunder);IF(HasAttackDamageDoneForType(DamageType.Necrotic)):DealDamage(1d6, Necrotic);IF(HasAttackDamageDoneForType(DamageType.Fire)):DealDamage(1d6, Fire);IF(HasAttackDamageDoneForType(DamageType.Lightning)):DealDamage(1d6, Lightning);IF(HasAttackDamageDoneForType(DamageType.Cold)):DealDamage(1d6, Cold);IF(HasAttackDamageDoneForType(DamageType.Psychic)):DealDamage(1d6, Psychic);IF(HasAttackDamageDoneForType(DamageType.Poison)):DealDamage(1d6, Poison);IF(HasAttackDamageDoneForType(DamageType.Radiant)):DealDamage(1d6, Radiant);IF(HasAttackDamageDoneForType(DamageType.Force)):DealDamage(1d6, Force)"
+data "Properties" "IsHidden"
+
+
+
+// Potent Spellcaster
+new entry "Target_Evo_Smart"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Evolutions_3"
+data "ContainerSpells" ""
+data "SpellContainerID" "Target_Evolutions_3"
+data "DisplayName" "hacrc024evo00000000000000000000000001;1"
+data "Description" "hacrc024evo00000000000000000000000002;1"
+data "Icon" "PassiveFeature_PotentCantrip"
+data "SpellProperties" "ApplyStatus(EVO_SMART,100,-1);ApplyStatus(INCARNATE_STUN,100,1);GROUND:Summon(3a5b7754-c28d-4653-87ef-57554636b594, 1,,,,)"
+
+new entry "EVO_SMART"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hacrc024evo00000000000000000000000001;1"
+data "Description" "hacrc024evo00000000000000000000000003;1"
+data "Icon" "PassiveFeature_PotentCantrip"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "Boosts" "Ability(Intelligence, 4);Ability(Wisdom, 4);DC(1);RollBonus(RangedSpellAttack,1);RollBonus(MeleeSpellAttack,1);IF(IsSpell()):BonusDamage(max(1,(Owner.SpellCastingAbilityModifier)/2))"
+data "Passives" ""
+
+
+
+
+
+
+
+
+
+
+
+
+
