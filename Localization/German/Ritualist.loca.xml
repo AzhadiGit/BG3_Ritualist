@@ -233,4 +233,19 @@
 	<content contentuid="hacrc021evo00000000000000000000000004" version="1">Versuche ein Schloss zu knacken.</content>
 	<content contentuid="hacrc022evo00000000000000000000000001" version="1">Entwickelt sich</content>
 	<content contentuid="hacrc022evo00000000000000000000000002" version="1">Deine Incarnation entwickelt sich weiter. Das dauert nur einen kurzen Moment.</content>
+	<content contentuid="hacrc023evo00000000000000000000000001" version="1">Ritualfeuer</content>
+	<content contentuid="hacrc023evo00000000000000000000000002" version="1">Deine Incarnation lernt eine eigene Variante von Ritualfeuer zu wirken.</content>
+	<content contentuid="hacrc023evo00000000000000000000000003" version="1">Wirke Ritualfeuer und feuere es auf deine Gegner!</content>
+	<content contentuid="hacrc024evo00000000000000000000000001" version="1">Mächtige Magie</content>
+	<content contentuid="hacrc024evo00000000000000000000000002" version="1">Die Incarnation wird an mächtiger Magier. Intelligenz und Weisheit sind um 4 erhöht, alle Würfe für Zauber sind um 1 erhöht. Zauber verursachen erhöhten Schaden, entsprechend der Hälfte des Weisheitsbonus des Ritualisten.</content>
+	<content contentuid="hacrc024evo00000000000000000000000003" version="1">Intelligenz und Weisheit sind um 4 erhöht. Zauberwürfe sind um 1 erhöht. Zauber verursachen erhöhten Schaden, entsprechend der Hälfte des Weisheitsbonus des Ritualisten.</content>
+	<content contentuid="hacrc025evo00000000000000000000000001" version="1">Berater</content>
+	<content contentuid="hacrc025evo00000000000000000000000002" version="1">Deine Incarnation ist ein Besserwisser und steht dir und Verbündeten mit Rat zur Seite.</content>
+	<content contentuid="hacrc025evo00000000000000000000000003" version="1">Du weiß es am Besten und lässt es auch jeden Wissen. Du kannst Verbündeten einen Bonus auf deren Würfe in Gesprächen entsprechend deinem Intelligenzmodifikator erhöhen.</content>
+	<content contentuid="hacrc026evo00000000000000000000000001" version="1">Gepanzert</content>
+	<content contentuid="hacrc026evo00000000000000000000000002" version="1">Der Inkarnation wachsen Panzerschuppen, wodurch sich seine Rüstungsklasse um 2 erhöht.</content>
+	<content contentuid="hacrc027evo00000000000000000000000001" version="1">Kräftig</content>
+	<content contentuid="hacrc027evo00000000000000000000000002" version="1">Deine Inkarnation wird stärker. Der Schaden seiner Nahkampfangriffe erhöht sich um 1d6.</content>
+	<content contentuid="hacrc028evo00000000000000000000000001" version="1">Scharfe Klauen</content>
+	<content contentuid="hacrc028evo00000000000000000000000002" version="1">Die Klauen deiner Inkarnation werden schärfer und haben eine stark erhöhte Chance für einen kritischen Treffer.</content>
 </contentList>

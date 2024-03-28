@@ -231,4 +231,20 @@
 	<content contentuid="hacrc021evo00000000000000000000000004" version="1">Try to open a Lock.</content>
 	<content contentuid="hacrc022evo00000000000000000000000001" version="1">Evolving</content>
 	<content contentuid="hacrc022evo00000000000000000000000002" version="1">Your Incarnate goes through the process of evolution! Just. a. Moment.</content>
+	<content contentuid="hacrc023evo00000000000000000000000001" version="1">Ritual Blast</content>
+	<content contentuid="hacrc023evo00000000000000000000000002" version="1">Your Incarnate learns how to channel an variation of Ritual Blast on their own.</content>
+	<content contentuid="hacrc023evo00000000000000000000000003" version="1">Channel an Ritual Blast and shoot it towards your Enemy.</content>
+	<content contentuid="hacrc024evo00000000000000000000000001" version="1">Potent Spellcaster</content>
+	<content contentuid="hacrc024evo00000000000000000000000002" version="1">Your Incarnate becomes a potent Spellcaster. He gets a bonus of 4 Intelligence and Wisdom. All Spellrolls are increased by 1. Spells get half the Spellcastingabilitymodifier of the Summoner as Bonusdamage.</content>
+	<content contentuid="hacrc024evo00000000000000000000000003" version="1">Bonus of 4 to Intelligence and Wisdom. Spellrolls and DC is increased by 1. Spells deal additional damage equal to hald the summoners Spellcastingabilitymodifier.</content>
+	<content contentuid="hacrc025evo00000000000000000000000001" version="1">Counseling</content>
+	<content contentuid="hacrc025evo00000000000000000000000002" version="1">Your Incarnate is a Smart Ass. He can give you or your allies advice, which grants a Bonus to Rolls equal his Intelligencemodifier in Conversations (stacks with Guidance).</content>
+	<content contentuid="hacrc025evo00000000000000000000000003" version="1">You know it best. You give the smarted advice to your Owner. Always. You can rise the Rolls in Conversation equal to your Intelligencemodifier.</content>
+	<content contentuid="hacrc026evo00000000000000000000000001" version="1">Armored</content>
+	<content contentuid="hacrc026evo00000000000000000000000002" version="1">The Incarnate grows scales that grants him an additional AC 2.</content>
+	<content contentuid="hacrc027evo00000000000000000000000001" version="1">Strong</content>
+	<content contentuid="hacrc027evo00000000000000000000000002" version="1">The Incarnate gets stronger. Meleeattacks do more damage equal to the Proficiency Bonus of the Ritualist.</content>
+	<content contentuid="hacrc028evo00000000000000000000000001" version="1">Sharp Claws</content>
+	<content contentuid="hacrc028evo00000000000000000000000002" version="1">The Claws of your Incarnate are more likely to do a critical Hit</content>
+
 </contentList>
