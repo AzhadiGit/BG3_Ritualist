@@ -222,8 +222,15 @@
 	<content contentuid="hacrc017evo00000000000000000000000002" version="1">Die Inkarnation wächst zu beachtlicher Größe heran und teilt dadurch mehr aus und steckt auch mehr ein. Sie zählt für Stärkewürfe als riesig und erhält auch einen Vorteil auf diese Würfe.</content>
 	<content contentuid="hacrc018evo00000000000000000000000001" version="1">Furchteinflößende Präsenz</content>
 	<content contentuid="hacrc018evo00000000000000000000000002" version="1">Die Inkarnation strahlt eine Aura des Schrecken aus. Sie erhält ein furcherregendes Gebrüll, dass Feinde in Angst und Schrecken versetzen kann.</content>	
-	<content contentuid="hacrc019evo00000000000000000000000001" version="1">Spitzenprädator</content>
-	<content contentuid="hacrc019evo00000000000000000000000002" version="1">Deine Verkörperung wird zu einem geborenen Hetzjäger. Sie wird schneller, weicht besser eingehendem Schaden aus und wird auch nicht mehr durch schwieriges Gelände gebremst.</content>
+	<content contentuid="hacrc018evo00000000000000000000000003" version="1">Du hast Todesangst! Du fühlst dich schwach, sodass deine stärkebasierten Angriffe nur noch halben Schaden verursachen. Außerdem kannst du dich nicht bewegen und alle Angriffswürfe sind benachteiligt.</content>
+
+
+	<content contentuid="hacrc019evo00000000000000000000000001" version="1">Jäger</content>
+	<content contentuid="hacrc019evo00000000000000000000000002" version="1">Deine Incarnation wird zu einem Jäger. Sie wird schneller, weicht besser eingehendem Schaden aus und wird auch nicht mehr durch schwieriges Gelände gebremst. Bei Nahkampfangriffen markiert die Inkarnation seinen Gegner, wodurch dieser zusätzlichen Schaden von allen Angriffen nimmt.</content>
+	<content contentuid="hacrc019evo00000000000000000000000003" version="1">Schwäche aufgedeckt!</content>
+	<content contentuid="hacrc019evo00000000000000000000000004" version="1">Du erhälsts 1d6 zusätzlichen Schaden, wenn du angegriffen wirst.</content>
+
+
 	<content contentuid="hacrc020evo00000000000000000000000001" version="1">Giftiger Speichel</content>
 	<content contentuid="hacrc020evo00000000000000000000000002" version="1">Der Inkarnation wächst eine Giftdrüse womit sie Gift auf ihre Gegner spucken kann.</content>
 	<content contentuid="hacrc020evo00000000000000000000000003" version="1">Spucke Gift auf einen Gegner.</content>
@@ -248,4 +255,17 @@
 	<content contentuid="hacrc027evo00000000000000000000000002" version="1">Deine Inkarnation wird stärker. Der Schaden seiner Nahkampfangriffe erhöht sich um 1d6.</content>
 	<content contentuid="hacrc028evo00000000000000000000000001" version="1">Scharfe Klauen</content>
 	<content contentuid="hacrc028evo00000000000000000000000002" version="1">Die Klauen deiner Inkarnation werden schärfer und haben eine stark erhöhte Chance für einen kritischen Treffer.</content>
+	<content contentuid="hacrc029evo00000000000000000000000001" version="1">Bollwerk</content>
+	<content contentuid="hacrc029evo00000000000000000000000002" version="1">Deine Inkarnation wird zu einem lebenden Bollwerk, dass eine Menge Schaden aushält und Verbündete um sich herum beschützen kann.</content>
+	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Schutz</content>
+	<content contentuid="hacrc029evo00000000000000000000000005" version="1">Baue 3m um dich herum ein Schutzschild auf. Alle Verbündeten erleiden nur halben Schaden und erhalten +2 AC und Schutzwürfe. Du kannst dich eine Runde lang nicht bewegen.</content>
+	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Geschützt</content>
+	<content contentuid="hacrc029evo00000000000000000000000005" version="1">Erlittener Schaden ist halbiert. +2 auf AC und Schutzwürfe.</content>
+	<content contentuid="hacrc030evo00000000000000000000000001" version="1">Verbesserter Körper</content>
+	<content contentuid="hacrc030evo00000000000000000000000002" version="1">Der Körper wird stärker, der Geist jedoch schwach. +2 Stärke, Geschick und Konstitution. -1 to Intelligenz, Weisheit und Ausstrahlung.</content>
+	<content contentuid="hacrc031evo00000000000000000000000001" version="1">Verbesserter Geist</content>
+	<content contentuid="hacrc031evo00000000000000000000000002" version="1">Der Geist wird stärker, der Körper jedoch schwach. +2 Intelligenz, Weisheit und Ausstrahlung. -1 to Stärke, Geschick und Konstitution.</content>
+
+
+
 </contentList>

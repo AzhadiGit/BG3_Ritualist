@@ -189,13 +189,13 @@
 	<content contentuid="hacrc003evo00000000000000000000000001" version="1">Restore Evolutions</content>
 	<content contentuid="hacrc003evo00000000000000000000000002" version="1">Removes all Evolutions from your Incarnate and restores your Evolution Points.</content>
 	<content contentuid="hacrc004evo00000000000000000000000001" version="1">Psychic Attacks</content>
-	<content contentuid="hacrc004evo00000000000000000000000002" version="1">Adds 1d4 Damage (Psychic) to your Melee Attacks.</content>
+	<content contentuid="hacrc004evo00000000000000000000000002" version="1">Adds Psychic Damage to your Melee Attacks.</content>
 	<content contentuid="hacrc005evo00000000000000000000000001" version="1">Forceful Attacks</content>
-	<content contentuid="hacrc005evo00000000000000000000000002" version="1">Adds 1d4 Damage (Force) to your Melee Attacks.</content>
+	<content contentuid="hacrc005evo00000000000000000000000002" version="1">Adds Force Damage to your Melee Attacks.</content>
 	<content contentuid="hacrc006evo00000000000000000000000001" version="1">Poisonous Attacks</content>
 	<content contentuid="hacrc006evo00000000000000000000000002" version="1">Adds 1d4 Damage (Poison) to your Melee Attacks.</content>
 	<content contentuid="hacrc007evo00000000000000000000000001" version="1">Bite Attack</content>
-	<content contentuid="hacrc007evo00000000000000000000000002" version="1">Adds a Bite Attack to your Incarnate. This Attack deals 1d6 Damage (Piercing) as a Bonus Action.</content>
+	<content contentuid="hacrc007evo00000000000000000000000002" version="1">Adds a Bite Attack to your Incarnate as a Bonus Action.</content>
 	<content contentuid="hacrc008evo00000000000000000000000001" version="1">Scent</content>
 	<content contentuid="hacrc008evo00000000000000000000000002" version="1">The Incarnates Scent becomes quite acute. It can detect invisible Beings and hidden things.</content>
 	<content contentuid="hacrc009evo00000000000000000000000001" version="1">Pounce</content>
@@ -217,11 +217,16 @@
 	<content contentuid="hacrc016evo00000000000000000000000001" version="1">Evolutions - Legendary</content>
 	<content contentuid="hacrc016evo00000000000000000000000002" version="1">Legendary Evolutions that enhance your Incarnate.</content>
 	<content contentuid="hacrc017evo00000000000000000000000001" version="1">Giant</content>
-	<content contentuid="hacrc017evo00000000000000000000000002" version="1">Your Incarnate becomes huge and it are enhanced to mirror its size.</content>
+	<content contentuid="hacrc017evo00000000000000000000000002" version="1">Your Incarnate becomes huge and it are enhanced to mirror its size. Bonis: +4 Strength and Constitution, advantage on strengthrolls, Bonusdamage, +2 Size.</content>
 	<content contentuid="hacrc018evo00000000000000000000000001" version="1">Frightful Presence</content>
-	<content contentuid="hacrc018evo00000000000000000000000002" version="1">Your Incarnate becomes an frightful display. Hes roar weakens foes and leave them shivering.</content>	
-	<content contentuid="hacrc019evo00000000000000000000000001" version="1">Cursorial Hunter</content>
-	<content contentuid="hacrc019evo00000000000000000000000002" version="1">Your Incarnate becomes a born hunter. Hes faster than ever an nothing can restrain him.</content>
+	<content contentuid="hacrc018evo00000000000000000000000002" version="1">Your Incarnate becomes an frightful display. Everyone in 3m proximity must role a Wisdomsave or become mortified.</content>	
+	<content contentuid="hacrc018evo00000000000000000000000003" version="1">You frightened to death. You feel weak, your strength based attacks deal half damage, you cant move and all ability or attack rolls are on disadvantage.</content>
+	<content contentuid="hacrc019evo00000000000000000000000001" version="1">Hunter</content>
+	<content contentuid="hacrc019evo00000000000000000000000002" version="1">Your Incarnate becomes a born hunter. He moves faster and when he attacks an enemy in melee combat, he marks his target. The marked target suffers additional 1d6 damage from all incoming attacks. Bonis: +4 Dexterity, ignores difficult terrain, +3m movement.</content>
+	<content contentuid="hacrc019evo00000000000000000000000003" version="1">Weakness Exposed!</content>
+	<content contentuid="hacrc019evo00000000000000000000000004" version="1">The Target takes 1d6 extra damage.</content>	
+	
+	
 	<content contentuid="hacrc020evo00000000000000000000000001" version="1">Poisonous Spit</content>
 	<content contentuid="hacrc020evo00000000000000000000000002" version="1">Your Incarnate grows glands in his mouth that produces poison to spit.</content>
 	<content contentuid="hacrc020evo00000000000000000000000003" version="1">Spit Poison at a foe.</content>
@@ -246,5 +251,16 @@
 	<content contentuid="hacrc027evo00000000000000000000000002" version="1">The Incarnate gets stronger. Meleeattacks do more damage equal to the Proficiency Bonus of the Ritualist.</content>
 	<content contentuid="hacrc028evo00000000000000000000000001" version="1">Sharp Claws</content>
 	<content contentuid="hacrc028evo00000000000000000000000002" version="1">The Claws of your Incarnate are more likely to do a critical Hit</content>
+	<content contentuid="hacrc029evo00000000000000000000000001" version="1">Bullwark</content>
+	<content contentuid="hacrc029evo00000000000000000000000002" version="1">Your Incarnate becomes a living Bullwark, that can take a lot of punch and protect everyone around it. Bonus: +4 Constitution, +2 AC, +20% HP, -3 damage recieved, -3m Movement.</content>
+	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Shield</content>
+	<content contentuid="hacrc029evo00000000000000000000000005" version="1">Build up a 3m wide area around you, that halfs the damage allies take and boosts their AC and Savingthrows by 2. You can't move while shielding.</content>
+	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Shielded</content>
+	<content contentuid="hacrc029evo00000000000000000000000005" version="1">You take only half damage and your AC and Savingthrows are increased by 2</content>
+	<content contentuid="hacrc030evo00000000000000000000000001" version="1">Enhancement - Body</content>
+	<content contentuid="hacrc030evo00000000000000000000000002" version="1">The Body is strenghend but the mind is weakened. +2 Strength, Dexterity and Constitution. -1 to Intelligence, Wisdom and Charisma.</content>
+	<content contentuid="hacrc031evo00000000000000000000000001" version="1">Enhancement - Mind</content>
+	<content contentuid="hacrc031evo00000000000000000000000002" version="1">The Mind is strenghend but the body is weakened. +2 Intelligence, Wisdom and Charisma. -1 to Strength, Dexterity and Constitution.</content>
+
 
 </contentList>
