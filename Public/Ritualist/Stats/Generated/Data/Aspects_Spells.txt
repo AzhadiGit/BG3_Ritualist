@@ -204,7 +204,7 @@ data "StackId" "DANCING_LIGHTS"
 data "Boosts" "GameplayLight(9,false,0.1)"
 data "StatusEffect" "e6d2276c-bc47-4f27-965a-7aaf7277398b"
 data "AuraRadius" "6"
-data "AuraStatuses" "IF(Enemy()):SpellSaveDC(-2)"
+data "AuraStatuses" "IF(Enemy()):Disadvantage(SavingThrow, Wisdom)"
 data "RemoveEvents" "OnStatusApplied"
 
 new entry "Target_RIT_Wisp"

@@ -174,58 +174,47 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="58768ddc-e092-14fe-a3df-d2a39fa45101" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2a2e351a-164f-9775-0c33-65ae0b8050eb" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Hollyphant" />
 					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
 					<attribute id="SpellSet" type="FixedString" value="" />
 					<attribute id="BloodSurfaceType" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int32" value="7" />
-					<children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
-								</node>
-							</children>
-						</node>
-						<node id="SkillList">
-							<children>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_EarthTurret" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="LocomotionParams" />
-					</children>
 				</node>
 
 
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e2aef0d7-cb51-4ae2-8248-4601c43fd6bf" />
+					<attribute id="Name" type="LSString" value="Turret_Imp" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="73372e73-452d-b34e-f2ab-955c1e73d5a0" />
+					<attribute id="VisualTemplate" type="FixedString" value="4507556b-2a50-75f2-d489-2cc432009aab" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="58768ddc-e092-14fe-a3df-d2a39fa45101" />
+					<attribute id="Icon" type="FixedString" value="73372e73-452d-b34e-f2ab-955c1e73d5a0-_(Icon_Imp)" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+				</node>
 
 
-
-
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a450473d-41f2-40cb-bdf9-ee427370aae1" />
+					<attribute id="Name" type="LSString" value="Turret_Shadow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="VisualTemplate" type="FixedString" value="03b9ae04-7557-526c-c481-2dfb99f76b7f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="efc67096-7e61-46ce-3542-74884e07e693" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f6698171-5b5c-af9d-6592-adc4fdd13b59" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Creature_Shadow" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+				</node>
 
 
 
