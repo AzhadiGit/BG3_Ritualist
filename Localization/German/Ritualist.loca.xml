@@ -31,7 +31,7 @@
 	<content contentuid="hacrc001aug00000000000000000000000001" version="1">Augmentation: Beschleunigt</content>
 	<content contentuid="hacrc001aug00000000000000000000000002" version="1">Nutze 1 Essenzpunkte um deine Rituelle Entladung, deinen Rituellen Hieb oder gebundenen Mephit als Bonusaktion auszuführen.</content>
 	<content contentuid="hacrc002aug00000000000000000000000001" version="1">Augmentation: Gespalten</content>
-	<content contentuid="hacrc002aug00000000000000000000000002" version="1">Nutze 2 Essenzpunkte um deine Rituelle Entladung, deinen Rituellen Hieb auf drei Ziele aufzuspalten oder Beschwöre 3 gebundene Mephit.</content>
+	<content contentuid="hacrc002aug00000000000000000000000002" version="1">Nutze 3 Essenzpunkte um deine Rituelle Entladung, deinen Rituellen Hieb auf drei Ziele aufzuspalten oder Beschwöre 3 gebundene Mephit.</content>
 	<content contentuid="hacrc003aug00000000000000000000000001" version="1">Augmentation: Still</content>
 	<content contentuid="hacrc003aug00000000000000000000000002" version="1">Nutze einen Essenzpunkt um deine Rituelle Entladung, deinen Rituellen Hieb oder die Beschwörung eines gebundenen Mephit geräuschlos auszuführen. Unsichtbarkeit oder Schleichen wird dadurch nicht beendet.</content>
 	<content contentuid="hacrc004aug00000000000000000000000001" version="1">Augmentation: Erweitert</content>
@@ -249,6 +249,8 @@
 	<content contentuid="hacrc025evo00000000000000000000000001" version="1">Berater</content>
 	<content contentuid="hacrc025evo00000000000000000000000002" version="1">Deine Incarnation ist ein Besserwisser und steht dir und Verbündeten mit Rat zur Seite.</content>
 	<content contentuid="hacrc025evo00000000000000000000000003" version="1">Du weiß es am Besten und lässt es auch jeden Wissen. Du kannst Verbündeten einen Bonus auf deren Würfe in Gesprächen entsprechend deinem Intelligenzmodifikator erhöhen.</content>
+	<content contentuid="hacrc025evo00000000000000000000000004" version="1">Kleiner Tipp</content>
+	<content contentuid="hacrc025evo00000000000000000000000005" version="1">+2 auf alle Würfe in Gesprächen.</content>	
 	<content contentuid="hacrc026evo00000000000000000000000001" version="1">Gepanzert</content>
 	<content contentuid="hacrc026evo00000000000000000000000002" version="1">Der Inkarnation wachsen Panzerschuppen, wodurch sich seine Rüstungsklasse um 2 erhöht.</content>
 	<content contentuid="hacrc027evo00000000000000000000000001" version="1">Kräftig</content>
@@ -265,7 +267,8 @@
 	<content contentuid="hacrc030evo00000000000000000000000002" version="1">Der Körper wird stärker, der Geist jedoch schwach. +2 Stärke, Geschick und Konstitution. -1 to Intelligenz, Weisheit und Ausstrahlung.</content>
 	<content contentuid="hacrc031evo00000000000000000000000001" version="1">Verbesserter Geist</content>
 	<content contentuid="hacrc031evo00000000000000000000000002" version="1">Der Geist wird stärker, der Körper jedoch schwach. +2 Intelligenz, Weisheit und Ausstrahlung. -1 to Stärke, Geschick und Konstitution.</content>
-
+	<content contentuid="hacrc032evo00000000000000000000000001" version="1">Úmwerfender Angriff</content>
+	<content contentuid="hacrc032evo00000000000000000000000002" version="1">Lerne einen Angriff, der Gegner umwerfen kann.</content>
 
 
 </contentList>

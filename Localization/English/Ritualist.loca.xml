@@ -31,7 +31,7 @@
 	<content contentuid="hacrc001aug00000000000000000000000001" version="1">Augment: Quickend</content>
 	<content contentuid="hacrc001aug00000000000000000000000002" version="1">You spend 1 Essence Points to cast the next Ritual Blast, Ritual Strike or Bound Mephit Summon as a Bonus Action</content>
 	<content contentuid="hacrc002aug00000000000000000000000001" version="1">Augment: Forked</content>
-	<content contentuid="hacrc002aug00000000000000000000000002" version="1">You spend 2 Essence Points to split your next Ritual Blast, Ritual Strike into 3 or to summon 3 Bound Mephits.</content>
+	<content contentuid="hacrc002aug00000000000000000000000002" version="1">You spend 3 Essence Points to split your next Ritual Blast, Ritual Strike into 3 or to summon 3 Bound Mephits.</content>
 	<content contentuid="hacrc003aug00000000000000000000000001" version="1">Augment: Silent</content>
 	<content contentuid="hacrc003aug00000000000000000000000002" version="1">You spend 1 Essence Point to cast the next Ritual Blast, Ritual Strike or Bound Mephit Summon silently. They do not break stealth.</content>
 	<content contentuid="hacrc004aug00000000000000000000000001" version="1">Augment: Wide</content>
@@ -243,24 +243,28 @@
 	<content contentuid="hacrc024evo00000000000000000000000002" version="1">Your Incarnate becomes a potent Spellcaster. He gets a bonus of 4 Intelligence and Wisdom. All Spellrolls are increased by 1. Spells get half the Spellcastingabilitymodifier of the Summoner as Bonusdamage.</content>
 	<content contentuid="hacrc024evo00000000000000000000000003" version="1">Bonus of 4 to Intelligence and Wisdom. Spellrolls and DC is increased by 1. Spells deal additional damage equal to hald the summoners Spellcastingabilitymodifier.</content>
 	<content contentuid="hacrc025evo00000000000000000000000001" version="1">Counseling</content>
-	<content contentuid="hacrc025evo00000000000000000000000002" version="1">Your Incarnate is a Smart Ass. He can give you or your allies advice, which grants a Bonus to Rolls equal his Intelligencemodifier in Conversations (stacks with Guidance).</content>
-	<content contentuid="hacrc025evo00000000000000000000000003" version="1">You know it best. You give the smarted advice to your Owner. Always. You can rise the Rolls in Conversation equal to your Intelligencemodifier.</content>
+	<content contentuid="hacrc025evo00000000000000000000000002" version="1">Your Incarnate is a Smart Ass. He can give you or your allies advice, which grants a Bonus of 2 to Rolls in Conversations (stacks with Guidance).</content>
+	<content contentuid="hacrc025evo00000000000000000000000003" version="1">You know it best. You give the smarted advice to your Owner. Always. You can rise all Rolls in Conversation by 2.</content>
+	<content contentuid="hacrc025evo00000000000000000000000004" version="1">Little Advice</content>
+	<content contentuid="hacrc025evo00000000000000000000000005" version="1">+2 to all Rolls in Conversations.</content>	
 	<content contentuid="hacrc026evo00000000000000000000000001" version="1">Armored</content>
 	<content contentuid="hacrc026evo00000000000000000000000002" version="1">The Incarnate grows scales that grants him an additional AC 2.</content>
 	<content contentuid="hacrc027evo00000000000000000000000001" version="1">Strong</content>
-	<content contentuid="hacrc027evo00000000000000000000000002" version="1">The Incarnate gets stronger. Meleeattacks do more damage equal to the Proficiency Bonus of the Ritualist.</content>
+	<content contentuid="hacrc027evo00000000000000000000000002" version="1">The Incarnate gets stronger. Meleeattacks do 1d6 more damage.</content>
 	<content contentuid="hacrc028evo00000000000000000000000001" version="1">Sharp Claws</content>
 	<content contentuid="hacrc028evo00000000000000000000000002" version="1">The Claws of your Incarnate are more likely to do a critical Hit</content>
 	<content contentuid="hacrc029evo00000000000000000000000001" version="1">Bullwark</content>
 	<content contentuid="hacrc029evo00000000000000000000000002" version="1">Your Incarnate becomes a living Bullwark, that can take a lot of punch and protect everyone around it. Bonus: +4 Constitution, +2 AC, +20% HP, -3 damage recieved, -3m Movement.</content>
-	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Shield</content>
-	<content contentuid="hacrc029evo00000000000000000000000005" version="1">Build up a 3m wide area around you, that halfs the damage allies take and boosts their AC and Savingthrows by 2. You can't move while shielding.</content>
-	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Shielded</content>
-	<content contentuid="hacrc029evo00000000000000000000000005" version="1">You take only half damage and your AC and Savingthrows are increased by 2</content>
+	<content contentuid="hacrc029evo00000000000000000000000003" version="1">Shield</content>
+	<content contentuid="hacrc029evo00000000000000000000000004" version="1">Build up a 3m wide area around you, that halfs the damage allies take and boosts their AC and Savingthrows by 2. You can't move while shielding.</content>
+	<content contentuid="hacrc029evo00000000000000000000000005" version="1">Shielded</content>
+	<content contentuid="hacrc029evo00000000000000000000000006" version="1">You take only half damage and your AC and Savingthrows are increased by 2</content>
 	<content contentuid="hacrc030evo00000000000000000000000001" version="1">Enhancement - Body</content>
 	<content contentuid="hacrc030evo00000000000000000000000002" version="1">The Body is strenghend but the mind is weakened. +2 Strength, Dexterity and Constitution. -1 to Intelligence, Wisdom and Charisma.</content>
 	<content contentuid="hacrc031evo00000000000000000000000001" version="1">Enhancement - Mind</content>
 	<content contentuid="hacrc031evo00000000000000000000000002" version="1">The Mind is strenghend but the body is weakened. +2 Intelligence, Wisdom and Charisma. -1 to Strength, Dexterity and Constitution.</content>
+	<content contentuid="hacrc032evo00000000000000000000000001" version="1">Trip Attack</content>
+	<content contentuid="hacrc032evo00000000000000000000000002" version="1">The Incarnate learns a Trip-Attack.</content>
 
 
 </contentList>
