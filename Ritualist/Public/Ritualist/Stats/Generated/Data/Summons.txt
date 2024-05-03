@@ -54,7 +54,7 @@ data "StatusType" "BOOST"
 data "Icon" "none"
 data "StackId" "RITUALIST_AURA"
 data "AuraRadius" "30"
-data "AuraStatuses" "TARGET:IF(HasStatus('ISTURRET') and HasPassive('Unlock_Aspect_Growth_1',context.Source)):ApplyStatus(TURRET_AURABOOSTS,100,-1)"
+data "AuraStatuses" "TARGET:IF(HasStatus('ISTURRET') and HasPassive('Unlock_Aspect_Growth_1',context.Source)):ApplyStatus(TURRET_AURABOOSTS,100,-1);TARGET:IF(HasStatus('ISINCARNATE') and HasPassive('Unlock_Aspect_Growth_3',context.Source)):ApplyStatus(INCARNATE_EXTRAATTACK,100,-1)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "ApplyToDead;FreezeDuration;IgnoreResting;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 data "Passives" ""
@@ -221,6 +221,14 @@ data "Cooldown" "OncePerTurn"
 data "InterruptDefaultValue" "Enabled"
 data "EnableCondition" "not HasStatus('SG_Blinded')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+new entry "INCARNATE_EXTRAATTACK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "none"
+data "StackId" "INCARNATE_EXTRAATTACK"
+data "Passives" "ExtraAttack"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
 
 // ===============
 // TURRETS brrrrrt
