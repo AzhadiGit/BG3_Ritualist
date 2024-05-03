@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="323" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4373e440-ff4a-4736-b85d-33185a07ca6d" />
+					<attribute id="Name" type="LSString" value="Turret_Mephit_Fire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_FireTurret" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="68412ab5-1e47-4399-bf17-ede9800d848b" />
+					<attribute id="Name" type="LSString" value="Turret_Mephit_Ice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4d876d7a-4ae0-4571-a71b-688e9288dff4" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_IceTurret" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+
+
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5fd58627-d2d3-4a34-ab5c-d25d305b5d30" />
+					<attribute id="Name" type="LSString" value="Turret_Mephit_Earth" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="74e37928-4361-4d5b-a304-0ba82f5e398a" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_EarthTurret" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="54617c72-ebdd-4971-9013-f3b222782104" />
+					<attribute id="Name" type="LSString" value="Turret_Hollyphant" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="58768ddc-e092-14fe-a3df-d2a39fa45101" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2a2e351a-164f-9775-0c33-65ae0b8050eb" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Hollyphant" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+				</node>
+
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e2aef0d7-cb51-4ae2-8248-4601c43fd6bf" />
+					<attribute id="Name" type="LSString" value="Turret_Imp" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="73372e73-452d-b34e-f2ab-955c1e73d5a0" />
+					<attribute id="VisualTemplate" type="FixedString" value="4507556b-2a50-75f2-d489-2cc432009aab" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="58768ddc-e092-14fe-a3df-d2a39fa45101" />
+					<attribute id="Icon" type="FixedString" value="73372e73-452d-b34e-f2ab-955c1e73d5a0-_(Icon_Imp)" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+				</node>
+
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a450473d-41f2-40cb-bdf9-ee427370aae1" />
+					<attribute id="Name" type="LSString" value="Turret_Shadow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a3db5896-d711-46fc-b3ed-0d950a2186fa" />
+					<attribute id="VisualTemplate" type="FixedString" value="03b9ae04-7557-526c-c481-2dfb99f76b7f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="efc67096-7e61-46ce-3542-74884e07e693" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f6698171-5b5c-af9d-6592-adc4fdd13b59" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Creature_Shadow" />
+					<attribute id="Stats" type="FixedString" value="RIT_Turret" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+				</node>
+
+
+
+
+
+
+
+
+				
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f6a01589-328a-43ae-8e68-782d79852c94" />
+					<attribute id="Name" type="LSString" value="TurretCircle_Fire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c2216bf-44f7-4e57-be99-126691c3564f" />
+					<attribute id="VisualTemplate" type="FixedString" value="b48a5ff3-930d-0c50-bcef-7e37d4cd8584" />
+					<attribute id="Scale" type="float" value="0.15"/>
+					<attribute id="Icon" type="FixedString" value="Spell_Abjuration_GlyphOfWarding_ExplosiveRunes_Fire" />
+					<attribute id="IsTrap" type="bool" value="False" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TurretCircle_Fire_sml" />
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="20df9c04-94f4-4a31-8c46-ef9836e19ced" />
+					<attribute id="Name" type="LSString" value="TurretCircle_Ice" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c2216bf-44f7-4e57-be99-126691c3564f" />
+					<attribute id="VisualTemplate" type="FixedString" value="efd4c2d9-b9c9-907c-6ae5-24d11fd30607" />
+					<attribute id="Scale" type="float" value="0.15"/>
+					<attribute id="Icon" type="FixedString" value="Spell_Abjuration_GlyphOfWarding_ExplosiveRunes_Cold" />
+					<attribute id="IsTrap" type="bool" value="False" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TurretCircle_Ice_sml" />
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="3a5b7754-c28d-4653-87ef-57554636b594" />
+					<attribute id="Name" type="LSString" value="TurretCircle_Earth" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c2216bf-44f7-4e57-be99-126691c3564f" />
+					<attribute id="VisualTemplate" type="FixedString" value="c3e99063-fa26-dee1-9d5e-bdea8bb3651f" />
+					<attribute id="Scale" type="float" value="0.15"/>
+					<attribute id="Icon" type="FixedString" value="Spell_Abjuration_GlyphOfWarding_Detonation" />
+					<attribute id="IsTrap" type="bool" value="False" />
+					<attribute id="ConstellationConfigName" type="FixedString" value="TurretCircle_Earth_sml" />
+				</node>				
+			</children>
+		</node>
+	</region>
+</save>
